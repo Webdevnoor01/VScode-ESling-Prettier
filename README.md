@@ -65,7 +65,7 @@ If you followed all previous steps, the theme should change and your editor shou
 
 Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
 
-<img src="images/choose-LF.png" alt="Line Feed" width="700">
+<img src="Images/choose-LF.png" alt="Line Feed" width="700">
 
 ## Linting Setup
 
@@ -82,16 +82,17 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 
 or You can also add a new script in the scripts section like below to install everything with a single command:
 
-````json
+```json
 scripts: {
     "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
 }
+```
 
 and then simply run the below command in the terminal -
 
 ```sh
 yarn lint #or 'npm run lint'
-````
+```
 
 ### Create Linting Configuration file manually
 
