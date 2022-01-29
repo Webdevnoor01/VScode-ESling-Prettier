@@ -100,7 +100,7 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 
 #### Make sure that in the below JSON file ecmaVersion should be latest otherwise you will get some error called "syntax error-cannot-use-import-statement-outside-a-module" like that .
 
-    visit this link to see the latest EcmaVersion  <a href="https://eslint.org/docs/user-guide/configuring/language-options#specifying-parser-options" target="_blank">Current ecmaVersion</a>
+visit this link to see the latest EcmaVersion <a href="https://eslint.org/docs/user-guide/configuring/language-options#specifying-parser-options" target="_blank">Current ecmaVersion</a>
 
 ```json
 {
